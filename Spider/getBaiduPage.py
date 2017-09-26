@@ -1,7 +1,7 @@
 #！/usr/bin/env python
 import urllib2  #引入URL操作库
 
-#设置报头信息(注意是字典类型的)，反反爬虫
+#设置用户代理信息(注意是字典类型的)，反反爬虫
 ua_headers = {
         "User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36"
     }
