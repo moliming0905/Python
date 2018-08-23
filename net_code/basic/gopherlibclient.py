@@ -1,0 +1,15 @@
+#encoding=utf-8
+import gopherlib,sys
+
+host = sys.argv[1]
+file = sys.argv[2]
+
+f = gopherlib.send_selector(file,host)
+
+for line in f.readline():
+	sys.stdout.write(line)
+
+
+
+
+
